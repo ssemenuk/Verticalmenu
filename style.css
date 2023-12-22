@@ -1,0 +1,66 @@
+.vertical-menu {
+    list-style-type: none;
+}
+
+nav
+{
+    background-image: url(park.jpg);
+    background-repeat: repeat;
+    height: 100%;
+
+}
+
+div{
+    background: rgba(33, 51, 71, 0.8);
+    height: 100%;
+}
+
+.vertical-menu li {
+    padding: 18%;
+    cursor: pointer;
+    margin-left: -45px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 8% 92%;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    align-items: center;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+html,body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.header
+{
+    padding: 20px 10px;
+    height: 80px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    filter: invert();
+    padding-right: 8px;
+}
+li a span{
+    display: flex;
+}
